@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2698cd70-0058-4ea8-8e76-fd750d5aa8ee" name="Changes" comment="added something new">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/.idea/homeworlHTML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_1/index1_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_2/.idea/lesson1_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_2/index1_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_3/index1_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_4/lesson1_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons1/lesson1_5.html/lesson1_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons2/lesson2_1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons2/lesson2_1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons2/lesson2_2/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="2698cd70-0058-4ea8-8e76-fd750d5aa8ee" name="Changes" comment="added something new" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +59,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745827920581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added something new">
+      <option name="closed" value="true" />
+      <created>1745828039329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745828039329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
