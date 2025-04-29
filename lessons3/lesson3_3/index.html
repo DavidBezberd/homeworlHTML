@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           text-decoration: none;
+           scroll-behavior: smooth;
+           box-sizing: border-box;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #section-top{
+            background-color: lightcoral;
+        }
+        #section-middle{
+            background-color: lightblue;
+        }
+        #section-bottom{
+            background-color: lightgreen;
+        }
+        p{
+         width: 80%;
+         font-size: 24px;
+         margin: 50px 0;
+        }
+        h1{
+            font-size: 36px;
+        }
+        .a1{
+            font-size: 65px;
+            font-weight: bolder;
+            color: black;
+            transition: 1s;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section id="section-top">
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Voluptatum expedita accusamus debitis maiores, officia doloribus 
+        ex quis error nulla possimus. Qui consectetur nesciunt eveniet vel est? 
+        Veniam a incidunt nostrum repellendus est quisquam ipsa impedit rem voluptates 
+        distinctio, porro voluptatibus provident natus voluptate consequuntur culpa blanditiis 
+        ratione eligendi cupiditate maxime aspernatur temporibus. Doloremque quis at repudiandae rem 
+        sequi commodi, reprehenderit nobis eligendi expedita atque eius temporibus praesentium nulla 
+        magnam! Accusamus.</p>
+        <a href="#section-middle" class="a1">&DownArrow;</a>
+    </section>
+    <section id="section-middle">
+        <a href="#section-top" class="a1">&UpArrow;</a>
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Voluptatum expedita accusamus debitis maiores, officia doloribus 
+            ex quis error nulla possimus. Qui consectetur nesciunt eveniet vel est? 
+            Veniam a incidunt nostrum repellendus est quisquam ipsa impedit rem voluptates 
+            distinctio, porro voluptatibus provident natus voluptate consequuntur culpa blanditiis 
+            ratione eligendi cupiditate maxime aspernatur temporibus. Doloremque quis at repudiandae rem 
+            sequi commodi, reprehenderit nobis eligendi expedita atque eius temporibus praesentium nulla 
+            magnam! Accusamus.</p>
+            <a href="#section-bottom" class="a1">&DownArrow;</a>
+    </section>
+    <section id="section-bottom">
+        <a href="#section-middle" class="a1">&UpArrow;</a>
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Voluptatum expedita accusamus debitis maiores, officia doloribus 
+            ex quis error nulla possimus. Qui consectetur nesciunt eveniet vel est? 
+            Veniam a incidunt nostrum repellendus est quisquam ipsa impedit rem voluptates 
+            distinctio, porro voluptatibus provident natus voluptate consequuntur culpa blanditiis 
+            ratione eligendi cupiditate maxime aspernatur temporibus. Doloremque quis at repudiandae rem 
+            sequi commodi, reprehenderit nobis eligendi expedita atque eius temporibus praesentium nulla 
+            magnam! Accusamus.</p>
+    </section>
+</body>
+</html>
