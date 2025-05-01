@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(30, 30, 30, 1);
+}
+.sitewidth{
+    width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+   padding-top: 36px;
+   display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 59px;
+    list-style-type: none;
+}
+ul a{
+   color: #E9E3DC;
+   font-family: "Bowlby One", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 96.896%;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+.nav__active-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 203px;
+    height: 60px;
+    top: 36px;
+    left: 1186px;
+    background-color: rgba(179, 160, 205, 1);
+    color: black;
+}
+.title{
+    width: 1255px;
+    letter-spacing: -2.142px;
+    font-family: Bowlby One;
+font-weight: 400;
+font-size: 107.088px;
+line-height: 88.896%;
+text-align: center;
+text-transform: uppercase;
+    color: rgba(233, 227, 220, 1);
+    margin: 72px 0 33px 0;
+}
+.BurgerImage{
+    display: block;
+}
+.section__about-burger{
+    width: 1340px;
+height: 369px;
+top: 916px;
+left: 50px;
+border-radius: 30px;
+border-width: 4px;
+background-color:rgba(209, 239, 83, 1);
+border: 4px solid rgba(30, 30, 30, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+ gap: 28px;
+}
+.section__about-burger h2{
+    width: 533px;
+height: 186px;
+
+    font-family: Bowlby One;
+font-weight: 400;
+font-size: 70px;
+line-height: 89%;
+letter-spacing: -1.4px;
+text-transform: uppercase;
+color: rgba(30, 30, 30, 1);
+}
+.section__about-burger p{
+    width: 521px;
+    width: 1340;
+left: 50px;
+border-radius: 30px;
+border-width: 4px;
+font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: -2%;
+}
+.section__about-burger button{
+    width: 176px;
+height: 60px;
+top: 1125px;
+left: 720px;
+background-color: rgba(233, 227, 220, 1);
+border-width: 4px;
+border: 4px solid rgba(30, 30, 30, 1);
+font-family: Bowlby One;
+font-weight: 400;
+font-size: 18px;
+line-height: 97%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+margin-top: 34px;
+}
+.img-potato{
+    margin: 64px 0;
+}
+.footer{
+    width: 895px;
+height: 235px;
+top: 2733px;
+left: 273px;
+text-align: center;
+}
+.footer h1{
+    width: 895;
+height: 142;
+top: 2733px;
+left: 273px;
+font-family: Bowlby One;
+font-weight: 400;
+font-size: 70px;
+line-height: 102%;
+letter-spacing: 0%;
+text-align: center;
+margin: 64px 0 33px 0; 
+text-transform: uppercase;
+color: rgba(233, 227, 220, 1);
+}
+.footer button{
+    width: 196px;
+    height: 60px;
+    
+font-family: Bowlby One;
+font-weight: 400;
+font-size: 18px;
+line-height: 97%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+background-color: rgba(209, 239, 83, 1);
+border: none;
+margin-bottom: 36px;
+}

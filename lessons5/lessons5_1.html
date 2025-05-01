@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .animation{
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .char{
+            position: absolute;
+            animation: moves 2s ease-in-out infinite alternate;
+            height: 100px;
+        }
+        @keyframes moves{
+         from{
+            transform: translate(0,0);
+         }   
+         10%{
+            transform: translate(30px, 10px);
+         }
+         20%{
+            transform: translate(60px,-15px);
+         }
+         30%{
+            transform: translate(90px, 15px);
+         }
+         40%{
+            transform: translate(120px, -15px);
+         }
+         50%{
+            transform: translate(150px,10px);
+         }
+         60%{
+            transform: translate(180px, -5px);
+         }
+         70%{
+            transform: translate(210px, 10px);
+         }
+         80%{
+            transform: translate(240px, -10px);
+         }
+         90%{
+            transform: translate(270px, 15px);
+         }
+         to{
+            transform: translate(300px, 0);
+   }
+        }
+        @keyframes fon{
+            from{
+                transform: skew(15deg);
+            }
+            50%{
+                transform: scale(2);
+            }
+            to{
+                transform: skew(-15deg);
+            }
+        }
+        .bg{
+            animation: fon 2s ease-in-out infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+        <img src="bg.jpg" alt="" class="bg">
+        <img src="character_09.png" alt="" class="char">
+    </div>
+</body>
+</html>
