@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cards{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.firstcard, .secondcard, .thirdcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.firstcard{
+    width: 319px;
+height: 492px;
+border-width: 4px;
+background: rgba(217, 217, 217, 0.3);
+border: 4px solid rgba(85, 76, 76, 1)
+}
+.secondcard{
+    width: 321px;
+height: 491px;
+border-width: 4px;
+background: rgba(217, 217, 217, 0.3);
+border: 4px solid rgba(101, 133, 110, 1)
+}
+.thirdcard{
+    width: 321px;
+height: 491px;
+border-width: 4px;
+background: rgba(217, 217, 217, 0.3);
+border: 4px solid rgba(85, 76, 76, 1)
+}
+.circle{
+width: 100px;
+height: 100px;
+border-width: 4px;
+background: rgba(255, 255, 255, 1);
+border: 4px solid rgba(85, 76, 76, 1);
+position: absolute;
+top: -55px;
+left: 110px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nb2{
+    border: 4px solid rgba(101, 133, 110, 1)
+}
+p{
+    font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
