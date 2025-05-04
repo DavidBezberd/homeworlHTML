@@ -1,0 +1,11 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .flcards{
+        width: 720px;
+        width: 100%;
+        height: 279px;
+        border-radius: 10px;
+    }
+    .cards{
+        width: 218px;
+    }
+}
