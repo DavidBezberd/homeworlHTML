@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+            grid-template-areas: 
+            'header header'
+            'left-top right-top'
+            'left-middle right-top'
+            'left-middle right-bottom'
+            'left-bottom right-bottom'
+            'footer footer'
+            ;
+        }
+        .grid header{
+            background-color: rgba(141, 132, 132, 1);
+            grid-area: header;
+        }
+        .grid section:nth-child(2){
+            background-color: rgba(119, 105, 105, 1);
+            grid-area: left-top;
+        }
+        .grid section:nth-child(3){
+            grid-area: left-middle;
+            background-color: rgba(100, 48, 48, 1);
+        }
+        .grid section:nth-child(4){
+            grid-area: left-bottom;
+            background-color: rgba(68, 24, 24, 1);
+        }
+        .grid aside:nth-child(5){
+            grid-area: right-top;
+            background-color: rgba(147, 117, 117, 1);
+        }
+        .grid aside:nth-child(6){
+            grid-area: right-bottom;
+            background-color: rgba(100, 76, 76, 1);
+        }
+        .grid footer{
+          grid-area: footer;
+            background-color: rgba(189, 189, 189, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <header></header>
+        <section></section>
+        <section></section>
+        <section></section>
+        <aside></aside>
+        <aside></aside>
+        <footer></footer>
+    </div>
+</body>
+</html>

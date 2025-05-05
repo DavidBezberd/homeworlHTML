@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .grid{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 0.5fr 5fr 3.5fr 0.8fr 1fr;
+           grid-template-areas: 
+           'nav nav'
+           'main section-top'
+           'main section-middle'
+           'section-bottom section-bottom'
+           'footer footer'
+           ;
+        }
+         nav{
+            background: rgba(217, 217, 217, 1);
+         grid-area: nav;
+        }
+        main{
+            background: rgba(164, 164, 164, 1);
+grid-area: main;
+        }
+        .grid section:nth-child(3){
+            background: rgba(127, 122, 122, 1);
+grid-area: section-top;
+        }
+        .grid section:nth-child(4){
+            background: rgba(97, 80, 80, 1);
+
+grid-area: section-middle;
+        }
+        .grid section:nth-child(5){
+            background: rgba(217, 217, 217, 1);
+grid-area: section-bottom;
+        }
+        footer{
+            grid-area: footer;
+            background: rgba(175, 169, 169, 1);
+
+        }
+        
+
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <nav></nav>
+        <main></main>
+        <section></section>
+        <section></section>
+        <section></section>
+        <footer></footer>
+    </div>
+</body>
+</html>
